@@ -24,7 +24,7 @@ final class ViewController: UIViewController {
     
     private lazy var counterAddButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Увеличить значение", for: .normal)
+        button.setTitle("Увеличить значение счетчика", for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .regular)
         button.setTitleColor(.blue, for: .normal)
         button.layer.cornerRadius = 16
